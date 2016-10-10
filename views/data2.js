@@ -5,28 +5,29 @@ define([
 	var ui = {
 		view:"chart",//, autoConfig:true
 		type:"bar",
+		border:true,
 		series:[
-        {   // 1st company - turquoise blue bars
+        {   // 1st series
             value:"#year#",
             color: "#58dccd", 
             tooltip:{
                 template:"#year#"
             }
         },
-        {   //2nd company - green bars
+        {   //2nd series
             value:"#votes#",
             color:"#a7ee70",
             tooltip:{
                 template:"#votes#"
             }
         },
-        {   // 3rd company - blue bars
+        {   // 3rd series
             value:"#rating3#",  
             color:"#36abee",
             tooltip:{
                 template:"#rating#"
             }
-    }]
+    	}]
 		// value:"#sales#",
   // 		color:"#f6960a",
   //   	border:true

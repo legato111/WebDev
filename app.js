@@ -12,7 +12,7 @@ define([
 	//configuration
 	var app = core.create({
 		id:			"COE Dash", //change this line!
-		name:		"Center of Excellence Dashboard",
+		name:		"COE Dashboard",
 		version:	"0.1.0",
 		debug:		true,
 		start:		"/top/start"
