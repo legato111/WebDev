@@ -12,13 +12,14 @@ define([
 		template:"<span class='webix_icon fa-#icon#'></span> #value# ",
 		data:[
 			{ value:"DashBoard", 					id:"start",						href:"#!/top/start", 		icon:"envelope-o" },
-			{ value:"Total Consults", 				id:"totalConsults",				href:"#!/top/data", 		icon:"briefcase" },
-			{ value:"Patient Satisfaction", 		id:"patientSatisfaction",		href:"#!/top/data", 		icon:"briefcase" },
-			{ value:"Slot Utilization", 			id:"slotUtilization",			href:"#!/top/data", 		icon:"briefcase" },
-			{ value:"Total Visits", 				id:"totalVisits",				href:"#!/top/data", 		icon:"briefcase" },
-			{ value:"Cognitive Diagnoses", 			id:"cogDiagnoses",				href:"#!/top/data", 		icon:"briefcase" },
+			//{ value:"Total Consults", 				id:"totalConsults",				href:"#!/top/data", 		icon:"briefcase" },
+			//{ value:"Patient Satisfaction", 		id:"patientSatisfaction",		href:"#!/top/data", 		icon:"briefcase" },
+			//{ value:"Slot Utilization", 			id:"slotUtilization",			href:"#!/top/data", 		icon:"briefcase" },
+			//{ value:"Total Visits", 				id:"totalVisits",				href:"#!/top/data", 		icon:"briefcase" },
+			//{ value:"Cognitive Diagnoses", 			id:"cogDiagnoses",				href:"#!/top/data", 		icon:"briefcase" },
 			//will include cognitive diagnoses by percentage, MOCA score, SLUMS, etc - "cognitive severity index/composition" of sorts
 			{ value:"Data", 						id:"data",						href:"#!/top/data", 		icon:"briefcase" },
+			//{ value:"ChartData",					id:"chartData",					href:"#!/top/dashChart1",	icon:"briefcase" },
 			{ value:"Data2", 						id:"data2",						href:"#!/top/data2", 		icon:"briefcase" }
 		]
 	};
