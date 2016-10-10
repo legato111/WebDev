@@ -6,7 +6,7 @@ define([
 		view:"chart",//, autoConfig:true
 		type:"bar",
 		border:true,
-		data:chartdata,
+		data:chartdata.data,
 		series:[
         {   // 1st series
             value:"#year#",
@@ -28,7 +28,7 @@ define([
             tooltip:{
                 template:"#rating#"
             }
-    	}]
+    	}],
     };
 
     var hihi = {
@@ -43,8 +43,9 @@ define([
 		rows:[
 	        {
 	        	cols:[
-	                {rows:[hihi]},
-	                {type:"header", template:"hihi"}
+	                {cols:[chart1]},
+	                // {type:"header", template:"hihi"}
+	                {cols:[chart1]}
 	            ]
 	        },
 	        // {
@@ -58,8 +59,8 @@ define([
 	        },
 	        {
 	            cols:[
-	                {rows:[chart1]},
-	                {type: "clean", template:"col 6"}
+	                {id:"hihi1", rows:[chart1]},
+	                {rows:[chart1]}
 	            ]
 	        }
 	    ]
@@ -79,7 +80,7 @@ define([
 	return {
 		$ui: ui
 		// $oninit:function(view){
-		// 	view.parse(chartdata.data);
+		// view.parse(chartdata.data);
 		// }
 	};
 	
